@@ -21,6 +21,9 @@ int main() {
         case '-';
             resultado=resta(num1,num2);
             break;
+        case '*':
+            resultado = multiplicacion(num1, num2);
+            break;
     }
      printf("%lf  %c %lf = %lf",num1,operador, num2, resultado);
     return 0; 
@@ -31,4 +34,8 @@ int suma(int num1, int num2){
 }
 double resta(doble num1,double num2){
     return num1-num2;
+}
+
+double multiplicacion(double num1, double num2) {
+    return num1 * num2;
 }
