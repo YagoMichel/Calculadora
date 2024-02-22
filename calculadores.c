@@ -1,6 +1,6 @@
 #include <stdio.h>
 int suma(int, int);
-
+double resta(double, double);
 
 int main() {
     char operador;
@@ -18,6 +18,9 @@ int main() {
         case '+':
             resultado=(num1,num2);
             break;
+        case '-';
+            resultado=resta(num1,num2);
+            break;
     }
      printf("%lf  %c %lf = %lf",num1,operador, num2, resultado);
     return 0; 
@@ -25,4 +28,7 @@ int main() {
 
 int suma(int num1, int num2){
     return num1+num2;
+}
+double resta(doble num1,double num2){
+    return num1-num2;
 }
