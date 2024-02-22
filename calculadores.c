@@ -1,6 +1,7 @@
 #include <stdio.h>
 int suma(int, int);
 double resta(double, double);
+double multiplicacion(double, double);
 
 int main() {
     char operador;
